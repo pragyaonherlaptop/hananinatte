@@ -36,6 +36,7 @@ jobs:
           emcc -o web/index.html src/*.c \
             -Os -Wall -std=c99 -DPLATFORM_WEB \
             -Iraylib/src raylib/src/libraylib*.a \
+            --shell-file shell.html \
             -s USE_GLFW=3 -s ASYNCIFY -s TOTAL_MEMORY=67108864 \
             -s ASSERTIONS=0
 
