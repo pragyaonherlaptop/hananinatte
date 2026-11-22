@@ -1,0 +1,6 @@
+snake
+snake.exe
+*.o
+*.out
+.vscode/
+.idea/
