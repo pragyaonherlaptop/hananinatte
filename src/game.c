@@ -221,11 +221,11 @@ void game_draw(const Game *g)
 
     /*popups*/
     if (g->state == STATE_GAME_OVER) {
-        retro_message_box("Snake 95", "Game Over!", "Press Enter to retry", true);
+        retro_message_box("hananinatte", "Game Over!", "Press Enter to retry", true);
     } else if (g->state == STATE_WON) {
-        retro_message_box("Snake 95", "You win!", "Press Enter to replay", false);
+        retro_message_box("hananinatte", "You win!", "Press Enter to replay", false);
     } else if (g->state == STATE_PAUSED) {
-        retro_message_box("Snake 95", "Paused", "Press P to resume", false);
+        retro_message_box("hananinatte", "Paused", "Press P to resume", false);
     }
 
     retro_draw_taskbar();
