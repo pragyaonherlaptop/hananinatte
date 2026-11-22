@@ -62,7 +62,7 @@ void retro_draw_window(void)
     ClearBackground(RETRO_DESKTOP);
 
     retro_bevel(WIN_X, WIN_Y, WIN_W, WIN_H, false);
-    title_bar(WIN_X + 3, WIN_Y + 3, WIN_W - 6, "Snake 95 - Flower Garden", true);
+    title_bar(WIN_X + 3, WIN_Y + 3, WIN_W - 6, "hananinatte - Flower Garden", true);
 
     DrawText("Game", WIN_X + 7,  WIN_Y + 16, 10, RETRO_BLACK);
     DrawText("Help", WIN_X + 38, WIN_Y + 16, 10, RETRO_BLACK);
@@ -84,7 +84,7 @@ void retro_draw_taskbar(void)
 
     /* Pressed task button for our window */
     retro_bevel(46, ty + 2, 90, 12, true);
-    DrawText("Snake 95", 52, ty + 3, 10, RETRO_BLACK);
+    DrawText("hananinatte", 52, ty + 3, 10, RETRO_BLACK);
 
     /* Clock */
     char buf[16] = "--:--";
