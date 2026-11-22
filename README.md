@@ -1,6 +1,6 @@
 # hananinatte 𓆙
 a 2-d game in c for practice.
-
+▶ **[Play in browser](https://pragyaonherlaptop.github.io/hananinatte/)**
 # about it:
 
 A retro, Windows 95-style Snake game written in C with [Raylib](https://www.raylib.com/).
