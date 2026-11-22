@@ -1,7 +1,7 @@
 CC      = gcc
 CFLAGS  = -Wall -Wextra -std=c99 -O2
 SRC     = $(wildcard src/*.c)
-TARGET  = snake
+TARGET  = hananinatte
 
 ifeq ($(OS),Windows_NT)
     LIBS = -lraylib -lopengl32 -lgdi32 -lwinmm
@@ -24,6 +24,6 @@ run: $(TARGET)
 	./$(TARGET)
 
 clean:
-	rm -f snake snake.exe
+	rm -f hananinatte hananinatte.exe
 
 .PHONY: all run clean
