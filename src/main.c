@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    InitWindow(SCREEN_W, SCREEN_H, "Snake 95");
+    InitWindow(SCREEN_W, SCREEN_H, "hananinatte");
     SetTargetFPS(60);
     SetRandomSeed((unsigned int)time(NULL));
 
